@@ -18,6 +18,9 @@
    src: url(../fonts/OpenSans-Regular.ttf);
 }*/
 
+p,h1,h2,h3,h4,h5,h6 {margin: 0}
+ul,ol {margin:0; padding-left: 0;}
+
 body{color: rgb(245, 127, 208); 
  font-family: "Open sans", sans-serif;   
     
@@ -53,6 +56,14 @@ letter-spacing: 0.09em;
 text-transform: uppercase;
 cursor: pointer;
     }
+
+    .container {
+      width: 1200px;
+      padding-left: 15px;
+      padding-right: 15px;
+      outline: 1px solid red;
+      margin: 0 auto;
+    }
     
     .title {
 font-family: 'Raleway', sans-serif;
@@ -74,6 +85,8 @@ text-transform: uppercase;
 
 .header {
    background-color: gray;
+   padding-top: 32px;
+   padding-bottom: 32px;
 }
 .header-navigation {
 }
@@ -127,9 +140,16 @@ color: #FF6C00;
 }
 .hero-pre-title {
 color: rgba(157, 164, 189, 0.6);
+margin-bottom: 20px;
 }
 .hero-title {
+   font-family: "Raleway", sans-serif;
+   font-size: 72px;
+   line-height: 1.18;
+   letter-spacing: 0.05em;
   color: var(--first-title-color, #ffffff);
+  margin-bottom: 20px;
+
 }
 .hero-after-title {
 font-size: 18px;
