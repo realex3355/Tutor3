@@ -355,7 +355,13 @@ color: var(--accent-color );
 }
 
 /* -------GALLERY---- */
-.gallery-pre-title {
+.gallery {
+   padding-top: 120px;
+   padding-bottom: 120px;
+   
+}
+
+.gallery-pre-titke {
    color: var(--main-text-color);
 }
 .gallery-list {
@@ -367,4 +373,57 @@ color: var(--accent-color );
 
 .gallery-item {
    width: calc((100%- 90px)/4);
+}
+
+/* ------ONLINE---- */
+.online {background-color: #090B13;
+}
+
+.online-title {
+   color: var(--first-title-color);
+
+}
+
+/* ------CONTACTS------ */
+.contacts {
+   background-color: #090B13;
+}
+.contacts-title {
+   color: var(--first-title-color);
+   margin-bottom: 40px;
+}
+
+.contacts-address {
+   font-style: normal;
+   margin-bottom: 70px;
+}
+.contacts-list {
+}
+
+.contacts-item:not(:last-child) {
+margin-bottom: 20px;
+}
+.contacts-link.bold {
+   font-weight: 700;
+
+}
+.contacts-link {
+   font-size: 18px;
+   line-height: 1.67;
+   letter-spacing: 0.02em;
+   color: #9da4bd;
+}
+
+.contacts-subtitle {
+   font-weight: 600;
+   font-size: 11px;
+   line-height: 1.36;
+   text-transform: uppercase;
+   color:#FFFFFF;
+}
+.contacts-schedule {
+   font-size: 18px;
+   line-height: 1.67;
+   letter-spacing: 0.02em;
+   color: #9da4bd;
 }
